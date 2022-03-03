@@ -5,4 +5,3 @@ if year < minimum_year or year > actual_year:
     print("Helytelen szuletesi ev")
 else:
     print("Az eletkorod: " + str(actual_year - year))
-

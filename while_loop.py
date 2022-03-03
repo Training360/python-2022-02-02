@@ -29,8 +29,8 @@ print("alma" == "korte")
 
 print("alma" == "alma")
 
-while False:
-    print("Hello ciklus")
+# while False:
+#     print("Hello ciklus")
 
 # Végtelenciklus
 # while True:

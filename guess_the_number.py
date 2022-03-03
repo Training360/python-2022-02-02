@@ -1,13 +1,14 @@
 print("Gondolj egy számra!")
-min = 1
-max = 10
+min_guess = 1
+max_quess = 10
 answer = "x"
+guess = 5
 while answer != "e":
-    guess = (min + max) // 2
+    guess = (min_guess + max_quess) // 2
     print("A tippem", guess)
     answer = input("k/e/n?")
     if answer == "k":
-        max = guess - 1
+        max_quess = guess - 1
     elif answer == "n":
-        min = guess + 1
+        min_guess = guess + 1
 print("A gondolt szam", guess)

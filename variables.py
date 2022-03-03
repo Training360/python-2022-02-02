@@ -1,13 +1,13 @@
 # Literál - érték
-print(5) # Egész szám
+print(5)  # Egész szám
 print(100_000)
 
-print(3.14) # Lebegőpontos literál
+print(3.14)  # Lebegőpontos literál
 
 print("Hello World")
 print('Hello World')
 
-employee_name = "John Doe" # Snake case
+employee_name = "John Doe"  # Snake case
 print(employee_name)
 
 age = 30
@@ -26,17 +26,17 @@ print(color_of_eye_of_john)
 
 print(111)
 print(employee_name)
-print(type(5)) # int = integer
+print(type(5))  # int = integer
 
-print(type(3.14)) # float - lebegőpontos szám
-print(type("Hello")) # str - string - karakterlánc
+print(type(3.14))  # float - lebegőpontos szám
+print(type("Hello"))  # str - string - karakterlánc
 
 age = 32
-print(type(age)) # int
+print(type(age))  # int
 
 age = "harminckettő"
 print(age)
-print(type(age)) # str
+print(type(age))  # str
 
 # literálok, változóknak - van típusa - Python típusos nyelv
 # változóknál a típus változhat - dinamikusan típusos nyelv
@@ -45,6 +45,5 @@ print(type(age)) # str
 
 salary: int = 200
 print(salary)
-salary = "kétszáz"
-print(salary)
-
+# salary = "kétszáz"
+# print(salary)

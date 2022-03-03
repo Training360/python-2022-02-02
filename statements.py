@@ -6,16 +6,16 @@ print(5 * 6 + 12)
 print(1 + 2 * 3)
 print((1 + 2) * 3)
 
-print("alma" + "korte") # konkatenálás
+print("alma" + "korte")  # konkatenálás
 
 # Mi van ha össze akarsz adni egy str-et és egy int-et
-#print("alma" + 5) # TypeError: can only concatenate str (not "int") to str
+# print("alma" + 5) # TypeError: can only concatenate str (not "int") to str
 # Mi van fordítva
-#nem működik
+# nem működik
 # Mi van ha egy stringből ki akarsz vonni egy másikat?
-#print("alma" - "korte") # Nem támogatott
+# print("alma" - "korte") # Nem támogatott
 # Mi van ha egy stringet megszorzol egy másik stringgel?
-#print("a" * "b")
+# print("a" * "b")
 # Mi van, ha egy stringet megszorzol egy int-tel?
 print("a" * 5)
 print("abc" * 5)
@@ -78,5 +78,5 @@ print("gyumolcs: \"" + fruit + "\"")
 
 # print(FRUIT) Python case-sensitive
 
-print(5 // 2) # ötben a kettő megvan 2-szer
-print(5 % 2) # maradék 1
+print(5 // 2)  # ötben a kettő megvan 2-szer
+print(5 % 2)  # maradék 1

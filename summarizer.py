@@ -11,11 +11,11 @@
 # írja ki a részösszeget!
 
 count = int(input("Hany szamot szeretnel megadni?"))
-sum = 0
+sum_value = 0
 for i in range(count):
     number = int(input("Add meg a " + str(i + 1) + ". szamot"))
     print("A megadott szam:", number)
     if number > 0:
-        sum += number
-        print("Reszosszeg:", sum)
-print("Vegso osszeg:", sum)
+        sum_value += number
+        print("Reszosszeg:", sum_value)
+print("Vegso osszeg:", sum_value)
