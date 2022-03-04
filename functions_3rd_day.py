@@ -11,6 +11,8 @@ def get_max(a: float, b: float) -> float:
 
 
 print(get_max(3.4, 8.5))
+print(get_max(100.4, 8.5))
+print(get_max(10, 10))
 # print(get_max("aaaa", "bbbb")) NE!
 
 # Írjatok egy beszédes print_square függvényt,
